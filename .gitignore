@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+airflow-webserver.pid
+
+# DVC
+/data/raw_data.csv
+/data/processed_data.csv
+/models/model.pkl
+.dvc/cache
+.dvc/tmp
+
+# Miscellaneous
+.DS_Store
+.idea/
+.vscode/
+.aws/.config
+.aws/credentials
